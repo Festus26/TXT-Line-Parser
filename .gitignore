@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But include the C source file
+!TXTLineParser.c
+
+# Include git files
+!.gitignore
+!README.md
+
+# Ignore compiled executables and debug files
+*.o
+*.out
+*.dSYM
+TXTLineParser
+
+# Ignore input/output files
+*.txt
+output/
